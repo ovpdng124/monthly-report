@@ -1,0 +1,12 @@
+Giới thiệu
+Để bắt đầu sử dụng Node.js, đầu tiên bạn phải hiểu sự khác nhau giữa Node.js và các môi trường kịch bản máy chủ truyền thống (như: PHP, Python, Ruby, v.v...).
+
+Lập trình bất đồng bộ (Asynchronous Programming)
+
+Node.js sử dụng một kiến trúc module để đơn giản hóa việc tạo ra các ứng dụng phức tạp.
+
+Rất có thể bạn đã quen thuộc với lập trình bất đồng bộ; sau tất cả nó là chữ "A" trong Ajax. Mỗi function trong Node.js là bất đồng bộ. Vì vậy, mọi thứ bình thường kẹt trong thread thì giờ đây được thực thi dưới background. Đây là điều quan trọng nhất bạn nên nhớ về Node.js. Ví dụ, nếu bạn đang đọc một file trên một hệ thống file, bạn phải xác định một hàm callback sẽ được thực thi khi hoạt động đọc file đó hoàn thành.
+
+Bạn đang tự tay làm mọi thứ!
+
+Node.js chỉ là một môi trường - nghĩa là bạn phải tự tay làm mọi thứ. Không có một server HTTP mặc định, hoặc bất kỳ server nào cho vấn đề đó. Điều này có thể gây bối rối cho những người mới học, nhưng bù lại chúng ta sẽ xây dựng được ứng dụng web có tốc độ thực thi cao. Một script quản lý tất cả truyền thông với các client. Điều này giúp giảm đáng kể số lượng tài nguyên sử dụng bởi ứng dụng đó. Ví dụ, đây là đoạn code cho một ứng dụng đơn giản bằng Node.js:
